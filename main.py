@@ -124,7 +124,7 @@ def Secretpassage():
   elif choice == "2" :
     Claimthegrail()
 def Pitofspikes():
-  print ("As you pull the lever the floor falls out from under you giving you no time to react. You fall into a pit of spikes, being instantly impaled. You look up to see the trapdoor closing and you notice multiple skeletons around you. As everything fades to black you barely make out a cackle as well as writing on the wall saying  \"their was a reason everyone left in a hurry... although none of them made it out\"")
+  print ("As you pull the lever the floor falls out from under you giving you no time to react. You fall into a pit of spikes, being instantly impaled. You look up to see the trapdoor closing and you notice multiple skeletons around you. As everything fades to black you barely make out a cackle as well as writing on the wall saying  \"there was a reason everyone left in a hurry... although none of them made it out\"")
   choice = input("GAME OVER")
 def Claimthegrail():
   print ("As you pull the lever the door opens to unveil the chest. As you pull it open You can't believe your eyes. You have found the grail. As you take out the golden cup the jewls shimmer in the light. You make your way out of the castle triumphantly carrying the most important find in centuries.")
