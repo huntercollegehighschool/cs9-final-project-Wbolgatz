@@ -46,7 +46,7 @@ def Shoutforhelp():
   choice = input("GAME OVER")
 def Breakout():
   print("As panic sets in you remind yourself of your goal and who you are. With some determination you know you can get out of this. As you dig with some small tools you have in your bag you manage to carve some of the aging wall away into a small passageway you can fit through. You manage to make your way into a seemingly unknown part of the castle. The only way to describe the abominations that line the walls around you would be torture devices. Your prize still could be close, or you could try and find a way out.")
-  choice = input ("Enter 1 to continue exploring or 2 to try and find a way back")
+  choice = input ("Enter 1 to continue exploring or 2 to try and find a way back.")
   if choice == "1" :
     Continueexploring()
   elif choice == "2" :
@@ -74,7 +74,7 @@ def Examinethrone():
   if choice == "1":
     Sitthrone()
   elif choice == "2":
-    examinetrapdoor
+    Examinetrapdoor()
 def Examinetrapdoor():
   print("As you get close to the ground to look at the wooden panel you see a small hinge right before you put your full body weight onto it. You feel the floor going out beneath you as you fall into a locked cell. The apparent trap door closes above you as you realize what you have done,You are trapped. You can yell for help or try and break a tunnel through the walls.")
   choice = input("Enter 1 to shout for help and enter 2 to break your way through the walls.")
@@ -84,21 +84,21 @@ def Examinetrapdoor():
     Breakout()
 def Sitthrone():
   print ("As you sit on the throne you get the eerie feeling that the gargoyles are watching your every move. But when you look closer it seems that only one is amiss. A hands distance apart you touch a small button, only visible from the throne and hear a whoosh. Behind you a small staircase has unveiled itself. You can go up the staircase or down it.")
-  choice = input ("Press 1 to go downstairs press 2 to go upstairs")
+  choice = input ("Press 1 to go downstairs press 2 to go upstairs.")
   if choice == "1":
     Torturechamber()
   elif choice == "2" :
     Secretpassage()
 def Torturechamber():
   print("You manage to make your way into a seemingly unknown part of the castle. The only way to describe the abominations that line the walls around you would be torture devices. Your prize still could be close, or you could try and find a way out.")
-  choice = input ("Enter 1 to continue exploring or 2 to try and find a way back")
+  choice = input ("Enter 1 to continue exploring or 2 to try and find a way back.")
   if choice == "1" :
     Continueexploring()
   elif choice == "2" :
     Findawayback()
 def IntoKitchen():
   print ("Going through a servants door of to the side of the grand hall you make your way into the kitchen. You see islands with rusted cast iron cutlury and dishes lining the walls and sinks. Hooks hang over firepits that can turn to roast and animal from all sides. This place was clearly evacuated in a hurry. After investigating all of the nooks and crannies of the place you deduce that the grail is not hidden here. You can go back and investigate the throne for the grail or take the door to the courtyard.")
-  choice = input ("Enter 1 to Go back to the throne or 2 to explore the courtyard")
+  choice = input ("Enter 1 to Go back to the throne or 2 to explore the courtyard.")
   if choice == "1":
     Examinethrone()
   elif choice == "2":
@@ -117,8 +117,8 @@ def Wallrun():
   print ("As you make your mad dash to the walls the wolves run you down. You are unable to out run them and they kill you.")
   choice = input ("GAME OVER")
 def Secretpassage():
-  print("As you climb the staircase you find yourself somewhere betweeen the upper floors. As you walk down a hallway you enter a room at then end. The Kings secret treasures. His vault. Silver and gold beyond imaginations surround you but they are not your goal. You walk past the artifacts into a room with a stained glass panel showing a chest. There are two levers that look like they upen the door to the room.You can pull the one on the left or the one on the right.")
-  choice = input("Enter 1 to pull the one on the right or 2 to pull the one on the left")
+  print("As you climb the staircase you find yourself somewhere betweeen the upper floors. As you walk down a hallway you enter a room at the end. The King's secret treasures. His vault. Silver and gold beyond imaginations surround you but they are not your goal. You walk past the artifacts into a room with a stained glass panel showing a chest. There are two levers that look like they upen the door to the room.You can pull the one on the left or the one on the right.")
+  choice = input("Enter 1 to pull the one on the right or 2 to pull the one on the left.")
   if choice == "1":
     Pitofspikes()
   elif choice == "2" :
@@ -142,10 +142,10 @@ def Aroundwalls():
   if choice == "1" :
     Climbtree()
   elif choice == "2":
-    Sidepassasge()
+    Sidepassage()
 def Sidepassage():
   print("As you enter the side door you think to yourself \"Brains over brawn, better to acess the situation than charge straight in.\"You find yourself in a hallway with a kitchen on your right and a passage going twords a large room on your left.")
-  choice = input("Enter 1 to enter kitchen or enter 2 to go into the large room")
+  choice = input("Enter 1 to enter kitchen or enter 2 to go into the large room.")
   if choice == "1" :
     IntoKitchen()
   elif choice == "2" :
