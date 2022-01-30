@@ -136,7 +136,7 @@ def Upstairs():
      Entercourtyard()
   elif choice == "2" :
       Back()
-def Aoundwalls():
+def Aroundwalls():
   print("You choose to walk around the castle looking for a better way in. You find a over hanging tree near a broken down part of the wall and a small hidden door near the back. You can climb the tree or go through the side passage.")
   choice = input("Enter 1 climb the tree or 2 to go through the side passage.")
   if choice == "1" :
